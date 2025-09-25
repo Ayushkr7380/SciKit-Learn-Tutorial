@@ -17,6 +17,7 @@ heart_disease_input = st.selectbox("Do you have Heart disease",options=["Yes","N
 smoking_history = st.selectbox("Smoking History",options=["No Info","never","former","current", "not current","ever"])
 BMI = st.number_input("Enter BMI")
 hba1c_level = st.number_input("Enter HbA1c level")
+st.info("HbA1c is a blood test that tells your average blood sugar level over the last 2–3 months. Higher values may indicate a higher risk of diabetes.")
 glucose_level = st.number_input("Enter Blood glucose level")
 
 #convert hypertension and heart_disease into 0/1
