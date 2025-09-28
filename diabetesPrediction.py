@@ -6,7 +6,7 @@ import pandas as pd
 
 
 model = pickle.load(open("diabetesModel.pkl","rb"))
-transformer = pickle.load(open("diabetesTransformer.pkl","rb"))
+transformer = pickle.load(open("diabetesModelLogisticRegression.pkl","rb"))
 
 st.title("Diabetes Prediction")
 
