@@ -5,7 +5,7 @@ import pandas as pd
 
 
 
-model = pickle.load(open("diabetesModelLogisticRegression.pkl","rb"))
+model = pickle.load(open("diabetesModelRandomForestClassifier.pkl","rb"))
 transformer = pickle.load(open("diabetesTransformer.pkl","rb"))
 
 st.title("Diabetes Prediction")
